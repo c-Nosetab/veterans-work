@@ -18,7 +18,7 @@
 }
 
 .right-nav {
- 
+
   margin: 0 -12px;
 }
 
@@ -37,24 +37,22 @@
 }
 
 .footer {
-  
+
   background-color: #EFEFEF;
   height: 100px;
   text-align: center;
-  
+
+
+
+  // white-space: nowrap;
+
   #MilitaryLogoContainer {
-    margin: 0 auto;
+    margin: 10px auto;
   }
 
   img {
-    margin: 10px auto;
     padding: 0 40px;
-    // border: 1px solid red;
-    width: auto;
     display: inline;
-    // border: 1px solid red;
-    
-    
   }
 
 }
