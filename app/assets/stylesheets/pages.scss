@@ -29,18 +29,26 @@ h1.home-title {
 
 .icons ul {
   list-style: none;
-  float: middle;
+  display: block;
+  align-items: center;
+
+  // float: middle;
   width: 1000px;
   margin: 0 auto;
   text-align: center;
   padding-bottom: 170px;
+
 }
 
 .icons li {
   // padding: 0 10px;
   // position: absolute;
-  left: 0;
-  right: 0;
+  // left: 0;
+  // right: 0;
+  // margin: 0 auto;
+  float: center;
+
+
   text-shadow: 2px 2px 1px gray;
   h4 {
     font: $h4;
@@ -94,7 +102,7 @@ h1.home-title {
   margin: 30px auto 0 auto;
   background-color: $white;
   width: 100%;
-  padding: 0;
+  padding: 30px 0 40px 0;
 }
 
 .home-about {
