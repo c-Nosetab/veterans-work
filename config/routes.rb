@@ -27,6 +27,7 @@ Rails.application.routes.draw do
   get '/about' => 'pages#about'
   get '/how' => 'pages#how'
   get '/admin_panel' => 'pages#admin_panel'
+  post '/home_search' => 'pages#home_search'
 
   resources :admins
   resources :customer_requests

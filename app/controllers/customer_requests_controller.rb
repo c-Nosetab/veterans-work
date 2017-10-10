@@ -1,5 +1,5 @@
 class CustomerRequestsController < ApplicationController
-  before_action :authenticate_customer!, only: [:create, :new], unless: :current_admin_user
+  before_action :authenticate_customer!, only: [:create], unless: :current_admin_user
   before_action :validate_customer_request!, only: [:show, :edit, :update, :destroy]
   before_action :has_quote?, only: [:edit, :update]
 

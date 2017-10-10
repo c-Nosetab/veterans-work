@@ -16,4 +16,11 @@ class PagesController < ApplicationController
   def about
     render "about.html"
   end
+
+
+  def home_search
+    flash[:request] = params["customer_request"]
+    redirect_to '/customer_requests/new'
+  end
+
 end

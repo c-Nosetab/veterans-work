@@ -25,7 +25,7 @@
 
       <div class="field">
         <%= label_tag :description %>
-        <%= f.text_area :description, class: "form-control" %>
+        <%= f.text_area :description, class: "form-control", value: "#{flash[:request]}" %>
       </div>
 
       <div class="field">
